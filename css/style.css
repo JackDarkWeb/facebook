@@ -1,0 +1,90 @@
+*
+{
+	 padding:0;
+	 margin:0;
+}
+body
+{
+	 background-color:#f2f2f2;
+	 font-family: "Trebuchet MS", sans-serif;
+	 font-size:17px;
+	 font-family:italic;
+	 font-style:bold;
+}
+h1
+{
+	 text-align:center;
+	 text-shadow:2px 2px 3px #ccc;
+	 font-family:italic;
+	 font-style:bold;
+	 font-size:35px;
+}
+#chatMsg img
+{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background:red;
+}
+
+#chatBox
+{
+	 width:420px;
+	 border:1px solid #000;
+	 border-radius:5px;
+	 margin:auto;
+	 background-color:#ccc;
+}
+
+#chatContent
+{
+	max-height:200px;
+	overflow-y: auto;
+	max-width:inherit;
+}
+
+#chatMsg
+{
+	 list-style-type:none;
+}
+
+#chatMsg > li
+{
+	 padding:5px;
+	 margin:10px 0px 4px 0px;
+	 clear:both;
+}
+
+#chatMsg > li > img
+{
+	 float:left;
+}
+
+#chatMsg > li > span
+{
+	float:left;
+	margin-left:5px;
+	width:350px;
+}
+
+#msg
+{
+	 width:300px;
+	 border:1px solid #222;
+	 padding:5px;
+	 margin:5px;
+}
+
+#sendButton
+{
+	 border:1px solid #222;
+	 padding:4px;
+	 background-color:#3b5998;
+	 color:#FFF;
+	 font-weight:bold;
+	 cursor:pointer;
+}
+
+
+
+
